@@ -1,10 +1,10 @@
 <?php
 
-namespace Nobledsmarts\DbSentry\Tests;
+namespace Nobledsmarts\DBSentry\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Nobledsmarts\DbSentry\DbSentryServiceProvider;
+use Nobledsmarts\DBSentry\DBSentryServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Nobledsmarts\\DbSentry\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Nobledsmarts\\DBSentry\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            DbSentryServiceProvider::class,
+            DBSentryServiceProvider::class,
         ];
     }
 

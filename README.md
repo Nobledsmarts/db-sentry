@@ -52,7 +52,7 @@ php artisan vendor:publish --tag="db-sentry-views"
 ## Usage
 
 ```php
-$dbSentry = new Nobledsmarts\DbSentry();
+$dbSentry = new Nobledsmarts\DBSentry();
 echo $dbSentry->echoPhrase('Hello, Nobledsmarts!');
 ```
 

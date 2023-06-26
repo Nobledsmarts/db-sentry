@@ -1,5 +1,5 @@
 <?php
 
-use Nobledsmarts\DbSentry\Tests\TestCase;
+use Nobledsmarts\DBSentry\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

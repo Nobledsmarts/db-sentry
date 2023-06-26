@@ -1,6 +1,6 @@
 <?php
 
-// config for Nobledsmarts/DbSentry
+// config for Nobledsmarts/DBSentry
 return [
 
 ];

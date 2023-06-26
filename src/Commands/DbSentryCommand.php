@@ -1,10 +1,10 @@
 <?php
 
-namespace Nobledsmarts\DbSentry\Commands;
+namespace Nobledsmarts\DBSentry\Commands;
 
 use Illuminate\Console\Command;
 
-class DbSentryCommand extends Command
+class DBSentryCommand extends Command
 {
     public $signature = 'db-sentry';
 

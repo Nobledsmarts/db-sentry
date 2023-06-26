@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Nobledsmarts\\DbSentry\\": "src/",
-            "Nobledsmarts\\DbSentry\\Database\\Factories\\": "database/factories/"
+            "Nobledsmarts\\DBSentry\\": "src/",
+            "Nobledsmarts\\DBSentry\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nobledsmarts\\DbSentry\\Tests\\": "tests/"
+            "Nobledsmarts\\DBSentry\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nobledsmarts\\DbSentry\\DbSentryServiceProvider"
+                "Nobledsmarts\\DBSentry\\DBSentryServiceProvider"
             ],
             "aliases": {
-                "DbSentry": "Nobledsmarts\\DbSentry\\Facades\\DbSentry"
+                "DBSentry": "Nobledsmarts\\DBSentry\\Facades\\DBSentry"
             }
         }
     },

@@ -1,7 +1,7 @@
 <?php
 
-namespace Nobledsmarts\DbSentry;
+namespace Nobledsmarts\DBSentry;
 
-class DbSentry
+class DBSentry
 {
 }

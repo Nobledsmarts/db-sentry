@@ -1,12 +1,12 @@
 <?php
 
-namespace Nobledsmarts\DbSentry;
+namespace Nobledsmarts\DBSentry;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Nobledsmarts\DbSentry\Commands\DbSentryCommand;
+use Nobledsmarts\DBSentry\Commands\DBSentryCommand;
 
-class DbSentryServiceProvider extends PackageServiceProvider
+class DBSentryServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -20,6 +20,6 @@ class DbSentryServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_db-sentry_table')
-            ->hasCommand(DbSentryCommand::class);
+            ->hasCommand(DBSentryCommand::class);
     }
 }

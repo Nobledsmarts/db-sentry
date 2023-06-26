@@ -1,16 +1,16 @@
 <?php
 
-namespace Nobledsmarts\DbSentry\Facades;
+namespace Nobledsmarts\DBSentry\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Nobledsmarts\DbSentry\DbSentry
+ * @see \Nobledsmarts\DBSentry\DBSentry
  */
-class DbSentry extends Facade
+class DBSentry extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Nobledsmarts\DbSentry\DbSentry::class;
+        return \Nobledsmarts\DBSentry\DBSentry::class;
     }
 }

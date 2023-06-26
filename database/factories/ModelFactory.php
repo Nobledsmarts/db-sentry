@@ -1,6 +1,6 @@
 <?php
 
-namespace Nobledsmarts\DbSentry\Database\Factories;
+namespace Nobledsmarts\DBSentry\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
