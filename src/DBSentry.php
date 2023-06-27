@@ -3,6 +3,7 @@
 namespace Nobledsmarts\DBSentry;
 
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 
 class DBSentry {
