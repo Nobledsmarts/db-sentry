@@ -25,7 +25,7 @@ composer require nobledsmarts/db-sentry
 ```php
 use Illuminate\Support\Facades\Storage
 
-$dbSentry = new Nobledsmarts\DBSentry();
+$dbSentry = new Nobledsmarts\DBSentry\DBSentry();
 $backupContent = $dbSentry->getBackUp();
 $backupFileName = 'backup'. date('Y-m-d=H-i-s') . '.sql';
 
