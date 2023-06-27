@@ -2,6 +2,8 @@
 
 namespace Nobledsmarts\DBSentry;
 
-class DBSentry
-{
+class DBSentry {
+    public function getBackUp(){
+        return "sample back up";
+    }
 }
