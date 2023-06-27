@@ -15,6 +15,7 @@ class DBSentry {
         $date = $carbon->format('M d, Y \a\t g:i A');
         $mysqlDump = <<<END
         -- Generation Time: $date
+        -- Generated with: Nobledsmarts\DBSentry
         -- Server version: $serverVersion
         -- PHP Version: $phpVersion
         -- Note: Disable foreign key checks before importing to database
