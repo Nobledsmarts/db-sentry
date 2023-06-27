@@ -20,9 +20,6 @@ You can install the package via composer:
 composer require nobledsmarts/db-sentry
 ```
 
-You can publish and run the migrations with:
-
-
 ## Usage
 
 ```php
