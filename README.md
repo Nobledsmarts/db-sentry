@@ -27,8 +27,7 @@ You can publish and run the migrations with:
 
 ```php
 $dbSentry = new Nobledsmarts\DBSentry();
-$dbsentry = new DBSentry();
-$backupContent = $dbsentry->getBackUp();
+$backupContent = $dbSentry->getBackUp();
 $backupFileName = 'backup'. date('Y-m-d=H-i-s') . '.sql';
 
 Storage::put($backupFileName, $backupContent);
